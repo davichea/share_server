@@ -46,26 +46,26 @@ export default function SocialFeed() {
     if (!component) return
     return component;
   }, [route]);
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     const expireAt = sessionStorage.getItem('tokenExpireAt');
-  //     console.log("expiredAt", expireAt);
-  //     console.log("Dated", Date.now());
-  //     if (!expireAt) return;
-  //     if (Date.now() > expireAt) {
-  //       sessionStorage.clear();
-  //       clearInterval(interval);
-  //       router.push('/');
-  //     } else {
-  //       if (!isStay) {
-  //         setIsExpiringSoon(expireAt - Date.now() <= EXPIRE_SOON);
-  //       }
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const expireAt = sessionStorage.getItem('tokenExpireAt');
+      console.log("expiredAt", expireAt);
+      console.log("Dated", Date.now());
+      if (!expireAt) return;
+      if (Date.now() > expireAt) {
+        sessionStorage.clear();
+        clearInterval(interval);
+        router.push('/');
+      } else {
+        if (!isStay) {
+          setIsExpiringSoon(expireAt - Date.now() <= EXPIRE_SOON);
+        }
 
-  //     }
-  //   }, 1000);
+      }
+    }, 1000);
 
-  //   return () => clearInterval(interval);
-  // }, [router, isStay]);
+    return () => clearInterval(interval);
+  }, [router, isStay]);
 
   const handleSessionAction = async () => {
     try {
@@ -90,7 +90,7 @@ export default function SocialFeed() {
       {
         isVerified &&
         <LayoutNpl>
-          {/* <DialogDynamic
+           <DialogDynamic
             isOpen={isExpiringSoon}
             icon={<IoInformationCircleOutline className="text-blue-500 h-[120px] w-[120px]" />}
             title="Session Information"
@@ -107,7 +107,7 @@ export default function SocialFeed() {
             }}
             // onButtonCancelClick={() => handleSessionAction('logOut')}
             onButtonOkClick={handleSessionAction}
-          /> */}
+          /> 
 
           {renderedComponent}
         </LayoutNpl>
