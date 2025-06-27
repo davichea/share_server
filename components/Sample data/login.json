@@ -1,0 +1,45 @@
+[
+    {
+        "staff_id": "11658",
+        "user_name": "kimheng.bonly",
+        "gender": "Male",
+        "email": "kimheng.bonly@canadiabank.com.kh",
+        "posistion_id": 782,
+        "positions": "Branch Manager",
+        "phone_number": [
+            ""
+        ],
+        "extension": [
+            ""
+        ],
+        "branch_id": 69,
+        "branch": "Aeon Meanchey",
+        "division_id": 7,
+        "division": "Branch Management",
+        "department_id": 144,
+        "department": "Branch",
+        "app_list": [
+            {
+                "app_id": "NL-01",
+                "app_name": "NPL LEGAL"
+            },
+            {
+                "app_id": "TC-01",
+                "app_name": "THE COIN"
+            }
+        ],
+        "team_member": [
+            {
+                "staff_id": "11833",
+                "staff_name": "Heng Visal"
+            }
+        ],
+        "managers": [
+            {
+                "manager_id": 3763,
+                "manager_name": "Chantha Puthearak\n",
+                "manager_email": "puthearak.chantha@canadiabank.com.kh"
+            }
+        ]
+    }
+]

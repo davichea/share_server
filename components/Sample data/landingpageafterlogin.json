@@ -1,0 +1,92 @@
+[
+    {
+        "res_status": "200",
+        "res_message": "Success",
+        "res_branch_id": [
+            "2"
+        ],
+        "res_division_id": [
+            "7"
+        ],
+        "res_department_id": [
+            "144"
+        ],
+        "res_position_id": "782",
+        "res_position_main": null,
+        "res_position_in_charge": null,
+        "res_team_member": [
+            "11658",
+            "11833"
+        ],
+        "res_user_title_level": "1",
+        "res_system_access_type": "NORMAL",
+        "res_access_level": "AG-03",
+        "res_data": [
+            {
+                "access_group_id": "AG-44",
+                "access_group_code": "AG-03",
+                "app_group_fun_id": "NL-GROUP-07",
+                "app_group_fun_name": "Setting",
+                "app_fun_id": "NL-01-0011",
+                "app_fun_name": "Sub Court",
+                "app_fun_per_id": "FP-02",
+                "app_fun_per_name": "READ",
+                "app_fun_per_export": false,
+                "criteria_parameter": null,
+                "criteria_column": []
+            },
+            {
+                "access_group_id": "AG-44",
+                "access_group_code": "AG-03",
+                "app_group_fun_id": "NL-GROUP-07",
+                "app_group_fun_name": "Setting",
+                "app_fun_id": "NL-01-0010",
+                "app_fun_name": "Sub Complaint",
+                "app_fun_per_id": "FP-02",
+                "app_fun_per_name": "READ",
+                "app_fun_per_export": false,
+                "criteria_parameter": null,
+                "criteria_column": []
+            },
+            {
+                "access_group_id": "AG-44",
+                "access_group_code": "AG-03",
+                "app_group_fun_id": "NL-GROUP-07",
+                "app_group_fun_name": "Setting",
+                "app_fun_id": "NL-01-0009",
+                "app_fun_name": "Collateral Valuated",
+                "app_fun_per_id": "FP-02",
+                "app_fun_per_name": "READ",
+                "app_fun_per_export": false,
+                "criteria_parameter": null,
+                "criteria_column": []
+            },
+            {
+                "access_group_id": "AG-44",
+                "access_group_code": "AG-03",
+                "app_group_fun_id": "NL-GROUP-07",
+                "app_group_fun_name": "Setting",
+                "app_fun_id": "NL-01-0008",
+                "app_fun_name": "Court",
+                "app_fun_per_id": "FP-02",
+                "app_fun_per_name": "READ",
+                "app_fun_per_export": false,
+                "criteria_parameter": null,
+                "criteria_column": []
+            },
+            {
+                "access_group_id": "AG-44",
+                "access_group_code": "AG-03",
+                "app_group_fun_id": "NL-GROUP-07",
+                "app_group_fun_name": "Setting",
+                "app_fun_id": "NL-01-0007",
+                "app_fun_name": "Complaint Type",
+                "app_fun_per_id": "FP-02",
+                "app_fun_per_name": "READ",
+                "app_fun_per_export": false,
+                "criteria_parameter": null,
+                "criteria_column": []
+            }
+        ]
+    }
+]
